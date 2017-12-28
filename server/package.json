@@ -1,0 +1,36 @@
+{
+  "name": "commenttestgulp",
+  "version": "1.0.0",
+  "description": "a simple api with gulp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "commenttestgulp"
+  },
+  "keywords": [
+    "gulp",
+    "node",
+    "mongo",
+    "express"
+  ],
+  "author": "William Miao",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.4",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "jshint": "^2.9.4",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1"
+  }
+}
